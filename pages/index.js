@@ -13,7 +13,7 @@ function HomePage() {
       </style>
 
       <div>
-        <span className="mySpan">Hello world</span>
+        <span className="mySpan">NextJs Tutorial</span>
       </div>
     </div>
   );
