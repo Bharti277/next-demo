@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-const slug = (props) => {
+const Slug = (props) => {
   const [blog, setBlog] = useState(props.myBlog);
   function createMarkup(c) {
     return {
@@ -29,4 +29,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default slug;
+export default Slug;
