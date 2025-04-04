@@ -1,3 +1,15 @@
 .container {
-  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav {
+}
+.list_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.list_items li {
+  cursor: pointer;
 }
