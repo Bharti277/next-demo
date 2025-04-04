@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+import React from "react";
 
 const Slug = (props) => {
-  const [blog, setBlog] = useState(props.myBlog);
+  const blog = props.myBlog;
   function createMarkup(c) {
     return {
       __html: c,

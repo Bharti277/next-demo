@@ -74,7 +74,7 @@ const Contact = () => {
             aria-describedby="emailHelp"
           />
           <div id="emailHelp" className="form-text">
-            We'll never share your email with anyone else.
+            We&apos;ll never share your email with anyone else.
           </div>
         </div>
         <div className={Styles.mb3}>
