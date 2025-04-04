@@ -1,6 +1,6 @@
 import React from "react";
 
-const Slug = (props) => {
+const slug = (props) => {
   const blog = props.myBlog;
   function createMarkup(c) {
     return {
@@ -28,4 +28,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default Slug;
+export default slug;
