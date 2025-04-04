@@ -1,6 +1,6 @@
 # NextJs Project
 
-A Project which created dynamic data using slug
+A Project which creates dynamic data using slug,
 Go through blog and create new blog everytime
 
 ## API Reference
